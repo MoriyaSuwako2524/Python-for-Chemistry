@@ -3,6 +3,6 @@ This is a temperary reposity for a group project.
 This group focuses on educational chemistry.And the reposity will upload files involving physical chemistry in undergraduate student education. We try to improve the quality of physical education with Python.
 ## Work list
 1. Github tutorial report
-2. This is a test 2
+2. This is a test 1
 3. ...
 4. 
