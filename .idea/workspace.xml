@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad5f76f1-68e7-49b5-9575-f90af2576396" name="Changes" comment="Changes" />
+    <list default="true" id="ad5f76f1-68e7-49b5-9575-f90af2576396" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/ipywidgets/乙酸乙酯皂化反应(初步实现表格功能).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ipywidgets/乙酸乙酯皂化反应(初步实现表格功能).ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +58,9 @@
       <updated>1679636712039</updated>
       <workItem from="1681218498073" duration="932000" />
       <workItem from="1681225002696" duration="345000" />
+      <workItem from="1681310681598" duration="49000" />
+      <workItem from="1681718606880" duration="27000" />
+      <workItem from="1681738605274" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1681225289583</created>
