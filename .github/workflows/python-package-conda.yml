@@ -1,0 +1,54 @@
+name: Python Package using Conda
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+#导入库，并打开文件
+import matplotlib.pyplot as plt
+from scipy import optimize as op
+import numpy as np
+import csv
+import pandas as pd
+df = pd.read_csv(r'C:\Users\TAO\Desktop\XZ\ShiyanShuju.csv',usecols=["(G0-Gt)/T"],dtype=float)
+df2=pd.read_csv(r'C:\Users\TAO\Desktop\XZ\ShiyanShuju.csv',usecols=["Gt"],dtype=float)
+print(df)
+
+#对数据的处理,将dataframe类型转换为np再转换为列表
+ls=[]
+ls1=[]
+kt=np.array(df)
+t=np.array(df2)
+for i in range(np.size(kt,0)):
+    ls.append(kt[i][0])
+for j in range(np.size(t,0)):
+    ls1.append(t[j][0])
+#结果验证
+print(ls)
+print(ls1)
+
+#作图
+parameter = np.polyfit(ls, ls1, 1) #拟合，这里用1次拟合
+ls2=[]
+for x in ls:
+    y2 = parameter[0] * x + parameter[1]
+    ls2.append(y2)
+plt.plot(ls, ls2, color='g') #画出拟合曲线
+plt.scatter(ls,ls1,marker="*",label='real') #散点
+
+#拟合直线方程，这里用到了字符串拼接
+a1='y = '
+a1 += str(round(parameter[0],2)) + " * x + " +str(round(parameter[1],2))
+
+#相关系数R2
+a2='R**2 = '
+correlation = np.corrcoef(ls1, ls2)[0,1]  #相关系数
+correlation =float(correlation**2) 
+a2 += str(correlation)
+
+#完善图的细节
+plt.legend(labels=[a1,a2])
+plt.xlabel("(G0-Gt)/T")
+plt.ylabel("Gt")
+plt.show()
