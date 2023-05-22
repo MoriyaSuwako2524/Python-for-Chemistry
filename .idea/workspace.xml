@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad5f76f1-68e7-49b5-9575-f90af2576396" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/done/乙酸乙酯皂化反应速率常数的测定（读取excel版本）.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/done/乙酸乙酯皂化反应速率常数的测定（读取excel版本）.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/done/乙酸乙酯皂化反应速率常数的测定（读取excel版本）.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <workItem from="1681739498241" duration="184000" />
       <workItem from="1681739812975" duration="225000" />
       <workItem from="1683556061828" duration="612000" />
-      <workItem from="1684747388886" duration="1443000" />
+      <workItem from="1684747388886" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1681225289583</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684748538031</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changes">
+      <created>1684748852363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684748852363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
