@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad5f76f1-68e7-49b5-9575-f90af2576396" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/done/python读取excel.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/done/ipywidgets插入文件的说明.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QK\Documents\GitHub\Python-for-Chemistry" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +81,7 @@
       <workItem from="1681739498241" duration="184000" />
       <workItem from="1681739812975" duration="225000" />
       <workItem from="1683556061828" duration="612000" />
-      <workItem from="1684747388886" duration="799000" />
+      <workItem from="1684747388886" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1681225289583</created>
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681740033851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changes">
+      <created>1684748298734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684748298734</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
